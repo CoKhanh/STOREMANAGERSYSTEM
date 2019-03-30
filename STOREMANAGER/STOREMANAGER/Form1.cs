@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +19,8 @@ namespace STOREMANAGER
         private void label4_Click(object sender, EventArgs e)
         {
             panelLogin.Visible = !panelLogin.Visible;
+            xtraMessageBox.Show("Edit from github");
+            
         }
     }
 }
