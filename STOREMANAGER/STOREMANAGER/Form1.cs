@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using DevExpress.XtraEditors;
 namespace STOREMANAGER
 {
     public partial class Form1 : DevExpress.XtraEditors.XtraForm
@@ -19,7 +19,7 @@ namespace STOREMANAGER
         private void label4_Click(object sender, EventArgs e)
         {
             panelLogin.Visible = !panelLogin.Visible;
-            xtraMessageBox.Show("Edit from github");
+            XtraMessageBox.Show("Edit from my desktop");
             
         }
     }
